@@ -1,13 +1,7 @@
-# # Questions to Answer
-# 
-# * What is the average response rate per person (to and from); response ratio (from messages / to messages)
-# * Average words per text message
-# * Average cuss words per text
-# * Sentiment score per text
-# * Pre-process stop words and stuff
-# * Add emoticons to dictionary
+#!/usr/bin/env Rscript
 library("dplyr")
 library("tm")
+
 
 ## Read Functions -----------------------------------------
 
